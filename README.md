@@ -8,9 +8,8 @@
   와 같이 정수의 형태로 제공될 때입니다
 예시.model.compile(optimizer='Adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
-
-# 러닝커브 함수 코드와 트레이닝 어큐러시,벨리데이션 어큐러시를 통한 오버피팅 설명
-# 러닝커브를 쓰는 함수는 다음과 같다.
+ 러닝커브 함수 코드와 트레이닝 어큐러시,벨리데이션 어큐러시를 통한 오버피팅 설명
+ 러닝커브를 쓰는 함수는 다음과 같다.
 
 acc = history.history['accuracy'] 
 val_acc = history.history['val_accuracy'] 
